@@ -16,7 +16,7 @@ You'll need a recent version of Node: v12.10 or higher.
 ### Clone the repo
 
 ```bash
-git clone https://github.com/stefankuehnel/stefankuehnel.com.git
+git clone https://github.com/stefankuehnel/linkdienst.git
 ```
 
 ### Install dependencies
