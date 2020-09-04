@@ -1,6 +1,7 @@
 # Linkdienst
 
-[![Build Status](https://travis-ci.com/stefankuehnel/linkdienst.svg?token=AQyzxMBFxfUSRWWUx9Bp&branch=master)](https://travis-ci.com/stefankuehnel/linkdienst)![CI](https://github.com/stefankuehnel/linkdienst/workflows/CI/badge.svg)
+[![Build Status](https://travis-ci.com/stefankuehnel/linkdienst.svg?token=AQyzxMBFxfUSRWWUx9Bp&branch=master)](https://travis-ci.com/stefankuehnel/linkdienst)
+![CI](https://github.com/stefankuehnel/linkdienst/workflows/CI/badge.svg)
 
 The frontend, backend, and content source code for Linkdienst, the official link shortener by [Stefan Kühnel](https://9bn.de/sk).
 
