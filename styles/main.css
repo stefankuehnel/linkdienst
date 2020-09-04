@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap");
+
+@import url("https://cdn.bealeaf.net/styles/global/grid-system/grid.min.css");
+@import url("https://cdn.bealeaf.net/styles/global/normalize/normalize.css");
+
+body {
+	font-family: "Source Serif Pro", sans-serif;
+	margin: 12px 0px 3px 0px;
+}
+
+main {
+	font-size: 15px;
+	line-height: 1.5;
+}
