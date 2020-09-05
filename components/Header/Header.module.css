@@ -1,37 +1,37 @@
 .header {
-	display: flex;
+  display: flex;
 
-	/* Justify Content Center */
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
+  /* Justify Content Center */
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 
-	/* Align Items Center */
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+  /* Align Items Center */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .info {
-	display: block;
+  display: block;
 }
 
 .name {
-	box-sizing: border-box;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 27.6px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27.6px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .description {
-	font-size: 15px;
-	line-height: 17.25px;
+  font-size: 15px;
+  line-height: 17.25px;
 }
 
 .avatar {
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
