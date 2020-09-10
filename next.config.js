@@ -13,6 +13,11 @@ module.exports = {
         permanent: true,
       },
       {
+        source: "/npm",
+        destination: "https://www.npmjs.com/~stefankuehnel",
+        permanent: true,
+      },
+      {
         source: "/dev",
         destination: "https://dev.to/stefankuehnel",
         permanent: true,
