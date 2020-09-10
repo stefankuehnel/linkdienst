@@ -13,7 +13,7 @@ module.exports = {
         permanent: true,
       },
       {
-        source: "/devto",
+        source: "/dev",
         destination: "https://dev.to/stefankuehnel",
         permanent: true,
       },
