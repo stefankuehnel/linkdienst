@@ -51,7 +51,7 @@ function Index() {
             text="github.com/stefankuehnel"
             spaceBefore
           ></ExternalLink>
-          , as they are visible in the address bar of the browser, the short
+          , as it is visible in the address bar of the browser, the short
           address
           <ExternalLink
             href="https://l.stefankuehnel.com/github"
