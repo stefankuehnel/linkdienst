@@ -28,6 +28,11 @@ module.exports = {
         destination: "https://twitch.tv/stefankuehnel",
         permanent: true,
       },
+      {
+        source: "/soundcloud",
+        destination: "https://soundcloud.com/stefankuehnel",
+        permanent: true,
+      },
       // Design & Showcase
       {
         source: "/instagram",
