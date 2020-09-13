@@ -68,6 +68,11 @@ module.exports = {
 
       // Other
       {
+        source: "/linkedin",
+        destination: "https://www.linkedin.com/in/stefankuehnelofficial/",
+        permanent: true,
+      },
+      {
         source: "/t3n",
         destination: "https://t3n.de/pioneers/profile/stefan-kuehnel/",
         permanent: true,
