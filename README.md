@@ -1,7 +1,8 @@
 # Linkdienst
 
-[![Build Status](https://travis-ci.com/stefankuehnel/linkdienst.svg?token=AQyzxMBFxfUSRWWUx9Bp&branch=master)](https://travis-ci.com/stefankuehnel/linkdienst)
-![CI](https://github.com/stefankuehnel/linkdienst/workflows/CI/badge.svg)
+[![Node.js](https://github.com/stefankuehnel/linkdienst/actions/workflows/node.js.yml/badge.svg)](https://github.com/stefankuehnel/linkdienst/actions/workflows/node.js.yml)
+[![CodeQL](https://github.com/stefankuehnel/linkdienst/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/stefankuehnel/linkdienst/actions/workflows/codeql-analysis.yml)
+[![LightHouse](https://github.com/stefankuehnel/linkdienst/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/stefankuehnel/linkdienst/actions/workflows/lighthouse.yml)
 
 The frontend, backend, and content source code for Linkdienst, the official link shortener by [Stefan Kühnel](https://9bn.de/sk).
 
