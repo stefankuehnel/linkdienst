@@ -1,4 +1,4 @@
-import styles from "./Headline.module.css";
+import styles from './Headline.module.css';
 
 /**
  * Erstellt eine neue Überschrift mit einem Anker.
@@ -10,10 +10,10 @@ const Headline = (props) => {
   const nodeValue = props.value;
 
   /* Ersetzt Leerzeichen durch einen Underscore. */
-  const id = nodeValue.toLowerCase().split(" ").join("_");
+  const id = nodeValue.toLowerCase().split(' ').join('_');
 
   /* Fügt eine Raute zu Beginn der ID zur Verwendung in der URL ein. */
-  const anchor = id.replace(/^/, "#");
+  const anchor = id.replace(/^/, '#');
 
   return (
     <>

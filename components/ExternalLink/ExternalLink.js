@@ -1,4 +1,4 @@
-import styles from "./ExternalLink.module.css";
+import styles from './ExternalLink.module.css';
 
 const ExternalLink = ({ href, text, spaceBefore, spaceAfter }) => {
   const space = <> </>;
@@ -10,12 +10,7 @@ const ExternalLink = ({ href, text, spaceBefore, spaceAfter }) => {
 
   const HTMLLinkElement = (
     <>
-      <a
-        className={styles.link}
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a className={styles.link} href={href} target="_blank" rel="noopener noreferrer">
         {text}
       </a>
     </>

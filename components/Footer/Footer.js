@@ -1,4 +1,4 @@
-import styles from "./Footer.module.css";
+import styles from './Footer.module.css';
 
 export function Footer() {
   let copyrightYear = new Date().getFullYear();
@@ -13,8 +13,7 @@ export function Footer() {
             className={styles.link}
             href="https://9bn.de/privacy?lang=en"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Privacy
           </a>
         </p>

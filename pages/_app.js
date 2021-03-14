@@ -1,12 +1,12 @@
-import "../styles/main.css";
+import '../styles/main.css';
 
-import React from "react";
-import App from "next/app";
-import Head from "next/head";
-import { DefaultSeo } from "next-seo";
+import App from 'next/app';
+import Head from 'next/head';
+import { DefaultSeo } from 'next-seo';
+import React from 'react';
 
 // import your default seo configuration
-import SEO from "../next-seo.config.js";
+import SEO from '../next-seo.config.js';
 
 export default class MyApp extends App {
   render() {
@@ -14,25 +14,20 @@ export default class MyApp extends App {
 
     /* Die unterschiedlichen Referenzen zu den Favicons. */
     const favicon = {
-      icon: "https://stefankuehnel.com/favicon.ico",
-      touch:
-        "https://assets-cdn.stefankuehnel.com/images/modules/site/favicon/touch-icon.png",
-      x16:
-        "https://assets-cdn.stefankuehnel.com/images/modules/site/favicon/favicon-16x16.png",
-      x32:
-        "https://assets-cdn.stefankuehnel.com/images/modules/site/favicon/favicon-32x32.png",
+      icon: 'https://stefankuehnel.com/favicon.ico',
+      touch: 'https://assets-cdn.stefankuehnel.com/images/modules/site/favicon/touch-icon.png',
+      x16: 'https://assets-cdn.stefankuehnel.com/images/modules/site/favicon/favicon-16x16.png',
+      x32: 'https://assets-cdn.stefankuehnel.com/images/modules/site/favicon/favicon-32x32.png'
     };
 
     /* Die Referenz zur Mask Vektorgrafik inklusive zu verwendender Farbe. */
     const mask = {
-      icon:
-        "https://assets-cdn.stefankuehnel.com/images/modules/site/favicon/mask-icon.svg",
-      color: "#1e2530",
+      icon: 'https://assets-cdn.stefankuehnel.com/images/modules/site/favicon/mask-icon.svg',
+      color: '#1e2530'
     };
 
     /* Die Referenz zum Web App Manifest */
-    const manifest =
-      "https://assets-cdn.stefankuehnel.com/manifest/modules/site/site.webmanifest";
+    const manifest = 'https://assets-cdn.stefankuehnel.com/manifest/modules/site/site.webmanifest';
 
     return (
       <>

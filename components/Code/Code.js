@@ -1,4 +1,4 @@
-import styles from "./Code.module.css";
+import styles from './Code.module.css';
 
 const Code = ({ content, spaceBefore, spaceAfter }) => {
   const space = <> </>;
