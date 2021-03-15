@@ -26,38 +26,40 @@ function Index() {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
       </Head>
-      <Header></Header>
-      <Divider></Divider>
+      <Header />
+      <Divider />
       <main>
         <p>
           Below you can find some frequently asked questions about Linkdienst
-          <Code content="https://l.stefankuehnel.com" spaceBefore></Code>, the official link
-          shortener by
+          <Code content="https://l.stefankuehnel.com" spaceBefore />, the official link shortener by
           <ExternalLink
             href="https://9bn.de/sk"
             text="Stefan
 					Kühnel"
-            spaceBefore></ExternalLink>
+            spaceBefore
+          />
           .
         </p>
-        <Headline value="How does link shortening work?"></Headline>
+        <Headline value="How does link shortening work?" />
         <p>
           Short links consist of the main address
-          <Code content="l.stefankuehnel.com" spaceBefore spaceAfter></Code> and a unique
-          alphanumeric identifier. So instead of the descriptive link
+          <Code content="l.stefankuehnel.com" spaceBefore spaceAfter /> and a unique alphanumeric
+          identifier. So instead of the descriptive link
           <ExternalLink
             href="https://github.com/stefankuehnel"
             text="github.com/stefankuehnel"
-            spaceBefore></ExternalLink>
+            spaceBefore
+          />
           , as it is visible in the address bar of the browser, the short address
           <ExternalLink
             href="https://l.stefankuehnel.com/github"
             text="l.stefankuehnel.com/github"
             spaceBefore
-            spaceAfter></ExternalLink>
+            spaceAfter
+          />
           can be used.
         </p>
-        <Headline value="Why do you use Linkdienst?"></Headline>
+        <Headline value="Why do you use Linkdienst?" />
         <ul>
           <li>
             With shortened links, long URLs can be shared on different platforms while still
@@ -70,32 +72,29 @@ function Index() {
           <li>
             Linkdienst protects users from harmful websites that spread malware, from phishing
             attacks and from other harmful activities, because links under
-            <Code content="l.stefankuehnel.com" spaceBefore spaceAfter></Code>
+            <Code content="l.stefankuehnel.com" spaceBefore spaceAfter />
             can only be created by me.
           </li>
         </ul>
-        <Headline value="URL safety tips"></Headline>
+        <Headline value="URL safety tips" />
         <ul>
           <li>
             Some URLs can be harmful. Please be careful when clicking links, especially ones that
             were shortened using an external link shortening service.
           </li>
           <li>
-            Always check to see what website you're on before giving out your password or
+            Always check to see what website you&apos;re on before giving out your password or
             downloading any software.
           </li>
           <li>
             To check whether a page is actually operated by me, you can use the following
-            <ExternalLink
-              href="https://wsc.egisty.com/?lang=en"
-              text="security tool"
-              spaceBefore></ExternalLink>
+            <ExternalLink href="https://wsc.egisty.com/?lang=en" text="security tool" spaceBefore />
             .
           </li>
         </ul>
       </main>
-      <Divider></Divider>
-      <Footer></Footer>
+      <Divider />
+      <Footer />
     </>
   );
 }
