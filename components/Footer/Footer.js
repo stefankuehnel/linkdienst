@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
 
-export function Footer() {
+export default function Footer() {
   let copyrightYear = new Date().getFullYear();
   return (
     <>

@@ -2,10 +2,10 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 import Code from '../components/Code/Code';
-import { Divider } from '../components/Divider/Divider';
+import Divider from '../components/Divider/Divider';
 import ExternalLink from '../components/ExternalLink/ExternalLink';
-import { Footer } from '../components/Footer/Footer';
-import { Header } from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
+import Header from '../components/Header/Header';
 import Headline from '../components/Headline/Headline';
 
 function Index() {
