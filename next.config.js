@@ -8,6 +8,11 @@ module.exports = {
         permanent: true
       },
       {
+        source: '/gist',
+        destination: 'https://gist.github.com/stefankuehnel',
+        permanent: true
+      },
+      {
         source: '/codepen',
         destination: 'https://codepen.io/stefankuehnel/',
         permanent: true
