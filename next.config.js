@@ -67,7 +67,7 @@ module.exports = {
       },
       {
         source: '/mastodon',
-        destination: 'https://mastodon.online/@stefankuehnel',
+        destination: 'https://mastodon.social/@stefankuehnel',
         permanent: true
       },
 
