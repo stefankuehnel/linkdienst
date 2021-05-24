@@ -56,7 +56,7 @@ module.exports = {
       },
       {
         source: '/producthunt',
-        destination: 'https://producthunt.com/@bloggerstefan',
+        destination: 'https://producthunt.com/@stefankuehnel',
         permanent: true
       },
       // Microblogging
